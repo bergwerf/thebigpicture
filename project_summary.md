@@ -5,9 +5,9 @@ One pictures from many
 - Herman Bergwerf
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+The idea of this project is to create a grid of pictures that, when zoomed out, form a new, larger picture. This grid is created from a Google Images search. The client can search and select one picture and the computer will fills this pictures with other, related pictures from Google Images. This is hard because all pictures have to be processed and selected in order to find the right spot for the right picture in the grid. This has to be done at a reasonable speed. Another problem is the image search because Google only provides a paid or limited Custom Search API so the program will have to crawl the regular Google Image search.
 
-## Link to Prototype
+/* ## Link to Prototype
 NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
 
 [Example Link](http://www.google.com "Example Link")
@@ -29,4 +29,4 @@ NOTE: For additional images you can either use a relative link to an image on th
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+https://www.youtube.com/watch?v=30yGOxJJ2PQ */
