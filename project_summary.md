@@ -1,5 +1,5 @@
 # Picture Grid
-One pictures from many
+One picture from many
 
 ## Authors
 - Herman Bergwerf
