@@ -1,5 +1,1 @@
-Insert a description to describe your update to document your creative process. The Commissioned Interactive Artists will be doing the same so you can reference their Project Posts.
-
-![Example Image](../project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+Today I've got a crazy but marvelous idea; a program that can turn any image found on the web into a grid with a lot of related images, so that all small images together form the big pigture again. I'm not sure if this is gonna work but I really want to make this web based so (almost) anyone can use it. Probabely I'm gonna need some server side C++ stuff to speed up the process.
