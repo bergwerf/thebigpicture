@@ -1,5 +1,5 @@
-# Project Title
-Picture Grid
+# Picture Grid
+One pictures from many
 
 ## Authors
 - Herman Bergwerf
