@@ -1,4 +1,4 @@
-# Picture Grid
+# The Big Picture
 One picture from many
 
 ## Authors
