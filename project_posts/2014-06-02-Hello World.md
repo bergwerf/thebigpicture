@@ -1,0 +1,1 @@
+Today, I got a crazy but marvelous idea; a program that can fill an image found on the web with a lot of related, small images, so that all small images together form the big pigture again. I'm not sure if this is gonna work but I really want to make this web based so (almost) anyone can try it. Probabely, I'm gonna need some server side C++ or PHP stuff to speed up the process.
