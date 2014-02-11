@@ -6,7 +6,10 @@
             "Web"
         ],
         "toolkits": [
-            "SimpleHTMLDOM"
+            "SimpleHTMLDOM",
+            "PHP",
+            "JavaScript",
+            "HTML5"
         ]
     },
     "themes": [
