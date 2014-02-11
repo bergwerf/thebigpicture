@@ -1,16 +1,17 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
         ],
         "platforms": [
-            "insert platforms"
+            "Web"
         ],
         "toolkits": [
-            "insert toolkits"
+            "SimpleHTMLDOM"
         ]
     },
     "themes": [
-        "insert themes"
+        "images",
+        "mosaic",
+        "algorithm"
     ]
 }
