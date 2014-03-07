@@ -1,0 +1,140 @@
+/*
+Theme base colors:
+- #111 = dark
+- #eee = light
+- #aaa = gray
+- #f50 = orange
+*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	
+	/* global font styling */
+	font-family: 'Open Sans', sans-serif;
+	color: #111;
+}
+
+header
+{
+	z-index: 5;
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	
+	background: #fff;
+}
+
+header h1
+{
+	padding: 5px;
+	margin: 0;
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#content
+{
+	position: fixed;
+	
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 100px;
+}
+
+footer
+{
+	z-index: 4;
+	position: fixed;
+	
+	height: 100px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	background: #fff;
+	border-top: 1px solid #111;
+}
+
+.layer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.blur
+{
+	-webkit-filter: blur(2px);
+	   -moz-filter: blur(2px);
+	    -ms-filter: blur(2px);
+	     -o-filter: blur(2px);
+	        filter: blur(2px);
+}
+
+#front
+{
+	z-index: 3;
+}
+
+#search
+{
+	z-index: 2;
+}
+
+#process
+{
+	z-index: 6;
+	position: fixed;
+	
+	background: #111;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#cancel-process
+{
+	z-index: 7;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+	color: #111;
+	text-shadow: 0 0 10px #fff;
+}
+
+#cancel-process:hover
+{
+	text-shadow: 0 0 10px #000;
+}
+
+.no-select
+{
+	cursor: default;
+	
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: -moz-none;
+         -o-user-select: none;
+            user-select: none;
+}
+

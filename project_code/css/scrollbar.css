@@ -1,0 +1,30 @@
+::-webkit-scrollbar
+{
+    width: 12px;
+    height: 12px;
+}
+ 
+::-webkit-scrollbar-track
+{
+    background: #fff;
+}
+
+::-webkit-scrollbar-track:horizontal
+{
+	border-top: 1px solid #111;
+}
+
+::-webkit-scrollbar-track:vertical
+{
+	border-left: 1px solid #111;
+}
+ 
+::-webkit-scrollbar-thumb
+{
+    background: #111;
+}
+
+::-webkit-scrollbar-corner
+{
+    background: #fff;
+}

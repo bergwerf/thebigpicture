@@ -1,0 +1,111 @@
+#search-bar
+{
+	position: absolute;
+	padding: 10px;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	
+	background: #f50;
+}
+
+#search-bar input
+{
+	border: 0;
+	margin: 0;
+	padding: 5px;
+	outline: 0;
+	width: 300px;
+	height: 20px;
+	
+	font-family: 'Open Sans', serif;
+	background: #eee;
+}
+
+#search-bar button
+{
+	position: absolute;
+	
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	height: 30px;
+	width: 60px;
+	
+	background: #111;
+	color: #eee;
+	
+	cursor: pointer;
+	
+	-webkit-transition: all .1s ease-in;
+}
+
+#search-bar button:hover
+{
+	-webkit-transform: scale(1.2);
+}
+
+#search-bar button:active
+{
+	background: #f50;
+}
+
+#results-container
+{
+	position: absolute;
+	
+	padding: 10px;
+	
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	border-bottom: 1px solid #f50;
+	
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.image
+{
+	position: relative;
+	margin: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid #111;
+	
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+}
+
+.image div.border
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	border-width: 0;
+	border-style: solid;
+	
+	-webkit-transition: border-width .5s ease-in;
+}
+
+.image:hover div.border
+{
+	border-width: 10px;
+	
+	-webkit-transition: none;
+}
+
+.image img.result
+{
+	display: block;
+	padding: 10px;
+}
