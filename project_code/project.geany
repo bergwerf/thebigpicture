@@ -22,15 +22,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=7
+current_page=2
 FILE_NAME_0=1611;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Findex.php;0;4
-FILE_NAME_1=494;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FTheBigPicture.js;0;4
-FILE_NAME_2=707;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FGridBox.js;0;4
-FILE_NAME_3=199;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FImageData.js;0;4
-FILE_NAME_4=193;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FTint.js;0;4
-FILE_NAME_5=2502;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FColor.js;0;4
-FILE_NAME_6=0;Javascript;0;EUTF-8;1;1;1;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FScraper.js;0;4
-FILE_NAME_7=0;Javascript;0;EUTF-8;1;1;1;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FSearch.js;0;4
+FILE_NAME_1=5347;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FTheBigPicture.js;0;4
+FILE_NAME_2=702;Javascript;0;EUTF-8;1;1;1;%2Fhome%2Fherman%2FDocuments%2FDeveloping%2FWeb%2FTheBigPicture%2Fjs%2FGridBox.js;0;4
 
 [VTE]
 last_dir=/home/herman

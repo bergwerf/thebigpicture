@@ -86,6 +86,11 @@ var Search = {
 							TheBigPicture.start();
 						}).appendTo("#wall"));
 				
+				window.setTimeout(function()
+				{
+					$("#wall").children(".image").addClass("ready");
+				}, 100);
+				
 				Search.i++;
 				if((Search.i < Search.stop || Search.stop ==  -1)
 				&& (Search.i < Scraper.size || Scraper.size == -1)) Search.loadNextImage();

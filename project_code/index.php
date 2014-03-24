@@ -65,8 +65,6 @@
 				</div>
 			</div>
 		</div>
-		<footer>
-		</footer>
 		<div id="process" class="hidden layer">
 			<div id="bigpicture-box">
 				<div id="analyze-message" class="hidden">

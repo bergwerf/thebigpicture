@@ -78,9 +78,21 @@
 	overflow: hidden;
 	border: 1px solid #111;
 	
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 	        border-radius: 3px;
+	
+	-webkit-transition: -webkit-transform .6s ease-in;
+	                transition: transform .6s ease-in;
+}
+
+.image.ready
+{
+	-webkit-transform: scale(1);
+	        transform: scale(1);
 }
 
 .image div.border
