@@ -9,4 +9,4 @@ A few times in my life, I've seen something very cool; an image mosaic, a large 
 See the big picture growing:
 https://www.youtube.com/watch?v=VNC9YrgN4Zw
 
-Unfortunately I can't link to a live version of this project because the images are scraped from Google Search using PHP which is not really appreciated by Google :-(I could have used a Google API to retrieve images from Google Search but I haven't because it's paid service and I'm not that rich)
+Unfortunately I can't link to a live version of this project because the images are scraped from Google Search using PHP which is not really appreciated by Google :-(I could have used the Google Custom Search API to retrieve images from Google Search but I haven't because it's a paid service and I'm not that rich ;-)
