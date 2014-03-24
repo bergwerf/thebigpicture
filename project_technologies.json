@@ -1,15 +1,17 @@
 {
     "technologies": {
         "apis": [
+			"Google Search"
         ],
         "platforms": [
             "Web"
         ],
         "toolkits": [
-            "SimpleHTMLDOM",
             "PHP",
+            "SimpleHTMLDOM",
             "JavaScript",
-            "HTML5"
+            "HTML5",
+            "CSS3"
         ]
     },
     "themes": [

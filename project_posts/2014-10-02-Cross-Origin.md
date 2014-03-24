@@ -1,1 +1,6 @@
-Thanks to [this script](http://html5hub.com/exploring-color-matching-in-javascript/ "this script") I can now find the difference between two colors (Delta E) But as expected, I can't read the pixel data from the thumbnails my PHP program scraped from Google Images due to Cross-Orign data. Because I couldn'f find an appropriate solution on the internet, I wrote a small, server-side image proxy (not sure what Google thinks about that ;-)
+As expected, I can't read the pixel data from the thumbnails my PHP program scraped from Google Images due to Cross-Orign data. In order to solve this problem, I wrote a small, server-side image proxy (not sure what Google thinks about that ;-) That probabely sounds complicated but this is all you need to mirror image data (the image url to retrieve is passed via a URL query):
+```
+header('Content-type: image');
+parse_str($_SERVER["QUERY_STRING"]);
+if(isset($src)) echo file_get_contents(urldecode($src));
+```

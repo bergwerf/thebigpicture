@@ -1,1 +1,2 @@
-As you can see in the cover image, I've added a very cool feature; a magnifier glass! To speed the process up, the magnifier is drawn on a separate canvas with a fixed position.
+I've added a very cool feature; a magnifier glass!
+The magnifier is drawn on a separate canvas. To create the rounded magnifier, a field of 4x4 zoomed images is drawn and clipped to a cicrle.
